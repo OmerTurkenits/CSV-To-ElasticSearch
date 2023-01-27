@@ -51,7 +51,7 @@
         
 ```
         
-## An Output Example 📋
+## An Output Example 🖥
 ```json
         "_index" : "flight_data",
         "_type" : "_doc",
