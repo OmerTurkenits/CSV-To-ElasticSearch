@@ -1,7 +1,7 @@
 # CSV To ElasticSearch Python Converter 📃
-<b>CSV To Elasticsearch Convertion Using Python.<b/>
+<b>CSV To ElasticSearch Convertion Using Python.<b/>
 <br />
-<b>The Code Is Located In The "File.py" File And Uses The "flight_data.csv" CSV File<b/>
+<b>The Code Is Located In The "CSV-ElasticSearch.py" File And Uses The "flight_data.csv" CSV File<b/>
 <br />
 <br />
 ## The Index Template 📋
