@@ -50,6 +50,7 @@
         }
         
 ```
+## The Discover 🔍 (Press Image To Enlarge)
 <p align="center">
     <img width="1500" height = 500 src="https://user-images.githubusercontent.com/43177100/215196905-4710405a-946e-4e1a-ba3c-c083c1186e24.png" alt="Elastic">
 </p>
