@@ -6,7 +6,7 @@
 <br />
 ## The Index Template 📋
 ```json
-        PUT _template/flights
+        PUT _template/flight_data
         {
           "index_patterns": ["flights-*"],
           "mappings": {
