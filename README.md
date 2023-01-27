@@ -6,7 +6,7 @@
 <br />
 ## The Index Template 📋
 <p align="center">
-    <img width="1000" src="https://user-images.githubusercontent.com/43177100/214948826-d72d7e28-1a12-43b9-8d62-3c1880b0c89f.png" alt="Elastic">
+    <img width="1000" src="https://user-images.githubusercontent.com/43177100/215111857-3cadd14a-4301-49de-83ed-656d78c0b32f.png" alt="Elastic">
 </p>
 <br />
 
