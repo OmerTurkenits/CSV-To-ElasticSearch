@@ -1,4 +1,4 @@
-# Omega CSV To ElasticSearch Python Converter 📃
+# CSV To ElasticSearch Python Converter 📃
 <b>CSV To Elasticsearch Convertion Using Python.<b/>
 <br />
 <b>The Code Is Located In The "File.py" File And Uses The "flight_data.csv" CSV File<b/>
