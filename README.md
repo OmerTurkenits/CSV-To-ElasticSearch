@@ -8,7 +8,7 @@
 ```json
         PUT _template/flight_data
         {
-          "index_patterns": ["flights-*"],
+          "index_patterns": ["*"],
           "mappings": {
             "properties": {
               "Carrier": {"type":"keyword"},
