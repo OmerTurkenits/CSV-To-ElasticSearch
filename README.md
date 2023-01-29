@@ -6,9 +6,9 @@
 <br />
 ## The Index Template 📋
 ```json
-        PUT _template/flights
+        PUT _template/flights-29-01-23
         {
-          "index_patterns": ["flights-*"],
+          "index_patterns": ["flights-29-01-23*"],
           "mappings": {
             "properties": {
               "Carrier": {"type":"keyword"},
@@ -59,39 +59,192 @@
         
 ## An Output Document Example 🖥
 ```json
-        "_index" : "flight_data",
-        "_type" : "_doc",
-        "_id" : "7bqH84UB3vH4fRGhh7Pz",
-        "_score" : 1.0,
-        "_source" : {
-          "AvgTicketPrice" : "$271.01",
-          "Cancelled" : "true",
-          "timestamp" : "Jan 12, 2022 @ 23:21:22.000",
-          "OriginWeather" : "Rain",
-          "OriginRegion" : "SE-BD",
-          "OriginLocation" : "{\n  \"coordinates\": [\n    18.60169983,\n    -33.96480179\n  ],\n  \"type\": \"Point\"\n}",
-          "OriginCountry" : "ZA",
-          "OriginCityName" : "Cape Town",
-          "OriginAirportID" : "CPT",
-          "Origin" : "Cape Town International Airport",
-          "hour_of_day" : "21",
-          "FlightTimeMin" : "811.468",
-          "FlightTimeHour" : "13.524470071170063",
-          "FlightNum" : "3MXWA2E",
-          "FlightDelayType" : "No Delay",
-          "FlightDelayMin" : "0",
-          "FlightDelay" : "false",
-          "DistanceMiles" : "8,067.567",
-          "DistanceKilometers" : "12,983.491",
-          "DestWeather" : "Hail",
-          "DestRegion" : "SE-BD",
-          "DestLocation" : "{\n  \"coordinates\": [\n    121.8050003,\n    31.14340019\n  ],\n  \"type\": \"Point\"\n}",
-          "DestCountry" : "CN",
-          "DestCityName" : "Shanghai",
-          "DestAirportID" : "PVG",
-          "Dest" : "Shanghai Pudong International Airport",
-          "dayOfWeek" : "2",
-          "Carrier" : "Logstash Airways"
-        }
+{
+  "_index": "flights_index-29-01-2023",
+  "_type": "_doc",
+  "_id": "wbbN_oUBVyJEN8App7il",
+  "_version": 1,
+  "_score": 1,
+  "_source": {
+    "AvgTicketPrice": 280.26,
+    "Cancelled": false,
+    "timestamp": "2022-01-12'T'23:05:37.000000",
+    "OriginWeather": "Cloudy",
+    "OriginRegion": "SE-BD",
+    "OriginLocation": [
+      "-58.5358",
+      "-34.8222"
+    ],
+    "OriginCountry": "AR",
+    "OriginCityName": "Buenos Aires",
+    "OriginAirportID": "EZE",
+    "Origin": "Ministro Pistarini International Airport",
+    "hour_of_day": 21,
+    "FlightTimeMin": 549.317,
+    "FlightTimeHour": 9.155290925297226,
+    "FlightNum": "WYZ2OB2",
+    "FlightDelayType": "No Delay",
+    "FlightDelayMin": 0,
+    "FlightDelay": false,
+    "DistanceMiles": 5119.951,
+    "DistanceKilometers": 8239.762,
+    "DestWeather": "Damaging Wind",
+    "DestRegion": "US-VA",
+    "DestLocation": [
+      "-77.31970215",
+      "37.50519943"
+    ],
+    "DestCountry": "US",
+    "DestCityName": "Richmond",
+    "DestAirportID": "RIC",
+    "Dest": "Richmond International Airport",
+    "dayOfWeek": 2,
+    "Carrier": "Kibana Airlines"
+  },
+  "fields": {
+    "Origin": [
+      "Ministro Pistarini International Airport"
+    ],
+    "FlightNum": [
+      "WYZ2OB2"
+    ],
+    "OriginLocation": [
+      "-58.5358",
+      "-34.8222"
+    ],
+    "DestLocation": [
+      "-77.31970215",
+      "37.50519943"
+    ],
+    "OriginCityName.keyword": [
+      "Buenos Aires"
+    ],
+    "FlightDelay": [
+      false
+    ],
+    "Carrier.keyword": [
+      "Kibana Airlines"
+    ],
+    "DistanceMiles": [
+      5119.951
+    ],
+    "FlightTimeMin": [
+      549.317
+    ],
+    "timestamp.keyword": [
+      "2022-01-12'T'23:05:37.000000"
+    ],
+    "OriginWeather": [
+      "Cloudy"
+    ],
+    "dayOfWeek": [
+      2
+    ],
+    "DestAirportID.keyword": [
+      "RIC"
+    ],
+    "AvgTicketPrice": [
+      280.26
+    ],
+    "DestLocation.keyword": [
+      "-77.31970215",
+      "37.50519943"
+    ],
+    "Carrier": [
+      "Kibana Airlines"
+    ],
+    "FlightDelayMin": [
+      0
+    ],
+    "Origin.keyword": [
+      "Ministro Pistarini International Airport"
+    ],
+    "OriginRegion": [
+      "SE-BD"
+    ],
+    "OriginRegion.keyword": [
+      "SE-BD"
+    ],
+    "DestAirportID": [
+      "RIC"
+    ],
+    "hour_of_day": [
+      21
+    ],
+    "FlightDelayType": [
+      "No Delay"
+    ],
+    "timestamp": [
+      "2022-01-12'T'23:05:37.000000"
+    ],
+    "FlightDelayType.keyword": [
+      "No Delay"
+    ],
+    "Dest": [
+      "Richmond International Airport"
+    ],
+    "OriginLocation.keyword": [
+      "-58.5358",
+      "-34.8222"
+    ],
+    "FlightTimeHour": [
+      9.155291
+    ],
+    "OriginWeather.keyword": [
+      "Cloudy"
+    ],
+    "Dest.keyword": [
+      "Richmond International Airport"
+    ],
+    "Cancelled": [
+      false
+    ],
+    "FlightNum.keyword": [
+      "WYZ2OB2"
+    ],
+    "DistanceKilometers": [
+      8239.762
+    ],
+    "DestCountry.keyword": [
+      "US"
+    ],
+    "OriginCountry.keyword": [
+      "AR"
+    ],
+    "OriginCityName": [
+      "Buenos Aires"
+    ],
+    "DestRegion.keyword": [
+      "US-VA"
+    ],
+    "OriginAirportID.keyword": [
+      "EZE"
+    ],
+    "DestWeather": [
+      "Damaging Wind"
+    ],
+    "OriginCountry": [
+      "AR"
+    ],
+    "DestWeather.keyword": [
+      "Damaging Wind"
+    ],
+    "DestCountry": [
+      "US"
+    ],
+    "DestCityName.keyword": [
+      "Richmond"
+    ],
+    "DestRegion": [
+      "US-VA"
+    ],
+    "OriginAirportID": [
+      "EZE"
+    ],
+    "DestCityName": [
+      "Richmond"
+    ]
+  }
+}
         
 ```
