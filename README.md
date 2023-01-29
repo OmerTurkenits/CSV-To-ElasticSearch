@@ -6,9 +6,9 @@
 <br />
 ## The Index Template 📋
 ```json
-        PUT _template/flight_data
+        PUT _template/flights
         {
-          "index_patterns": ["*"],
+          "index_patterns": ["flights-*"],
           "mappings": {
             "properties": {
               "Carrier": {"type":"keyword"},
